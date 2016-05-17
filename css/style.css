@@ -27,15 +27,12 @@ body {
 	background: orange;
 	z-index: 2;
 }
-.logga {
-    position: absolute;
-	top: -20px;
-}
-.container {
+.h1, p {
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; /*Font for entire website*/
+	font-size: 24px;
 }
-/* Dropdown Button */
-.dropbtn {
+/* Dropdown Button For Forum */
+.forumbtn {
 	position: absolute;
 	top: -10px;
 	left: 210px;
@@ -48,7 +45,7 @@ body {
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.forumbtn:hover, .dropbtn:focus {
     background-color: #D60003;
 }
 
@@ -59,7 +56,7 @@ body {
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.dropdown-forum {
     display: none;
     position: absolute;
 	top: 34px;
@@ -70,7 +67,7 @@ body {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-forum a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -78,7 +75,16 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-forum a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+/* End Of Forum Button */
+#rab {
+    position: absolute;
+	top: 10px;
+	text-decoration: none;
+	font-size: 30px;
+	color: #000000;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
