@@ -34,7 +34,7 @@ body {
 /* Dropdown Button For Forum */
 .forumbtn {
 	position: absolute;
-	top: -10px;
+	top: -5px;
 	left: 210px;
     background-color: #E50003;
     color: white;
@@ -87,4 +87,12 @@ body {
 	font-size: 30px;
 	color: #000000;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#btp {
+	position: absolute;
+	bottom: 27px;
+	right: 10px;
+	color: #000000;
+	text-decoration: none;
+	
 }
